@@ -6,5 +6,5 @@ app = Flask(__name__)
 def hello_world():
   return "Hello World"
 
-if __name__ == '__name':
+if __name__ == '__name__':
   app.run(host = '0.0.0.0', debug=True)
